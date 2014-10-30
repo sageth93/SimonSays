@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<title>Simon Dice - JavaScript</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" data-main="js/main" src="js/simon.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Simon Dice</h1>
+			<div class="game-board">
+				<div class="simon">
+					<ul>
+						<li id='0' class="tile red" data-tile="1"></li>
+						<li id='1' class="tile blue" data-tile="2"></li>
+						<li id='2' class="tile yellow" data-tile="3"></li>
+						<li id='3' class="tile green" data-tile="4"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="game-info">
+				<h2>Ronda: <span data-round="0">0</span></h2>
+				<button data-action="start" >Empezar</button></br>
+				<p data-action="lose">Lo siento, has perdido después de <span data-round="0"></span> rondas!</p>
+			</div>
+	</div>
+</body>
+</html>
